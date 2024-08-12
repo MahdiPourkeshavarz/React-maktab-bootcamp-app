@@ -1,0 +1,246 @@
+{
+  "bootcamps": [
+    {
+      "id": 1,
+      "title": "Full Stack Web Development Bootcamp",
+      "description": "Learn the fundamentals of web development, from front-end to back-end, and build real-world projects.",
+      "image": "bootcamp.jpg",
+      "duration": "12 weeks",
+      "price": 15000,
+      "location": "New York City",
+      "ratings": 4.5,
+      "reviews": 200
+    },
+    {
+      "id": 2,
+      "title": "Data Science Bootcamp",
+      "description": "Master the skills of data analysis, machine learning, and data visualization to become a data scientist.",
+      "image": "bootcamp2.jpg",
+      "duration": "16 weeks",
+      "price": 18000,
+      "location": "Washington D.C.",
+      "ratings": 4.7,
+      "reviews": 150
+    },
+    {
+      "id": 3,
+      "title": "Cybersecurity Bootcamp",
+      "description": "Gain the knowledge and skills to protect organizations from cyber threats and become a cybersecurity professional.",
+      "image": "bootcamp4.jpg",
+      "duration": "10 weeks",
+      "price": 12000,
+      "location": "Miami",
+      "ratings": 4.3,
+      "reviews": 180
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Design Bootcamp",
+      "description": "Learn the principles of user interface and user experience design to create engaging and user-friendly digital products.",
+      "image": "bootcamp3.webp",
+      "duration": "14 weeks",
+      "price": 16000,
+      "location": "Atlanta",
+      "ratings": 4.8,
+      "reviews": 220
+    },
+    {
+      "id": 5,
+      "title": "Mobile App Development Bootcamp",
+      "description": "Build native mobile apps for iOS and Android using industry-standard frameworks and tools.",
+      "image": "bootcamp4.jpg",
+      "duration": "12 weeks",
+      "price": 14000,
+      "location": "New York City",
+      "ratings": 4.6,
+      "reviews": 190
+    },
+    {
+      "id": 6,
+      "title": "Software Engineering Bootcamp",
+      "description": "Become a software engineer with a comprehensive curriculum covering programming languages, data structures, algorithms, and software development methodologies.",
+      "image": "bootcamp2.jpg",
+      "duration": "16 weeks",
+      "price": 19000,
+      "location": "Houston",
+      "ratings": 4.4,
+      "reviews": 250
+    },
+    {
+      "id": 7,
+      "title": "Digital Marketing Bootcamp",
+      "description": "Master the strategies and tools of digital marketing, including SEO, social media, content marketing, and email marketing.",
+      "image": "bootcamp.jpg",
+      "duration": "10 weeks",
+      "price": 11000,
+      "location": "Miami",
+      "ratings": 4.2,
+      "reviews": 160
+    },
+    {
+      "id": 8,
+      "title": "Product Management Bootcamp",
+      "description": "Learn the skills of defining, launching, and managing successful products, from ideation to market launch.",
+      "image": "bootcamp3.webp",
+      "duration": "12 weeks",
+      "price": 14000,
+      "location": "Atlanta",
+      "ratings": 4.6,
+      "reviews": 210
+    },
+    {
+      "id": 9,
+      "title": "Blockchain Development Bootcamp",
+      "description": "Dive into the world of blockchain technology and learn how to build decentralized applications.",
+      "image": "bootcamp3.webp",
+      "duration": "14 weeks",
+      "price": 17000,
+      "location": "Miami",
+      "ratings": 4.5,
+      "reviews": 180
+    },
+    {
+      "id": 10,
+      "title": "Artificial Intelligence Bootcamp",
+      "description": "Explore the fundamentals of AI, including machine learning, deep learning, and natural language processing.",
+      "image": "bootcamp2.jpg",
+      "duration": "16 weeks",
+      "price": 20000,
+      "location": "New York City",
+      "ratings": 4.7,
+      "reviews": 230
+    },
+    {
+      "id": 11,
+      "title": "Game Development Bootcamp",
+      "description": "Learn the art of game development, from game design to programming, and create your own interactive games.",
+      "image": "bootcamp4.jpg",
+      "duration": "12 weeks",
+      "price": 15000,
+      "location": "Atlanta",
+      "ratings": 4.4,
+      "reviews": 170
+    },
+    {
+      "id": 12,
+      "title": "Data Analytics Bootcamp",
+      "description": "Develop the skills to analyze large datasets, extract insights, and use data to drive business decisions.",
+      "image": "bootcamp.jpg",
+      "duration": "10 weeks",
+      "price": 12000,
+      "location": "Houston",
+      "ratings": 4.3,
+      "reviews": 190
+    },
+    {
+      "id": 13,
+      "title": "DevOps Bootcamp",
+      "description": "Learn the principles and practices of DevOps, including automation, continuous integration, and continuous delivery.",
+      "image": "bootcamp4.jpg",
+      "duration": "14 weeks",
+      "price": 16000,
+      "location": "Washington D.C.",
+      "ratings": 4.5,
+      "reviews": 200
+    },
+    {
+      "id": 14,
+      "title": "Ethical Hacking Bootcamp",
+      "description": "Gain the skills to identify and exploit vulnerabilities in systems and networks, and become an ethical hacker.",
+      "image": "bootcamp3.webp",
+      "duration": "12 weeks",
+      "price": 14000,
+      "location": "New York City",
+      "ratings": 4.4,
+      "reviews": 180
+    },
+    {
+      "id": 15,
+      "title": "Machine Learning Engineering Bootcamp",
+      "description": "Learn how to build, deploy, and maintain machine learning models in real-world applications.",
+      "image": "bootcamp2.jpg",
+      "duration": "16 weeks",
+      "price": 18000,
+      "location": "Miami",
+      "ratings": 4.6,
+      "reviews": 220
+    },
+    {
+      "id": 16,
+      "title": "Robotics Bootcamp",
+      "description": "Explore the world of robotics, from basic principles to advanced applications, and build your own robotic systems.",
+      "image": "bootcamp3.webp",
+      "duration": "14 weeks",
+      "price": 17000,
+      "location": "Houston",
+      "ratings": 4.3,
+      "reviews": 190
+    },
+    {
+      "id": 17,
+      "title": "VR/AR Development Bootcamp",
+      "description": "Learn how to create immersive virtual reality and augmented reality experiences using cutting-edge technologies.",
+      "image": "bootcamp.jpg",
+      "duration": "12 weeks",
+      "price": 15000,
+      "location": "Washington D.C.",
+      "ratings": 4.5,
+      "reviews": 210
+    },
+    {
+      "id": 18,
+      "title": "Cloud Computing Bootcamp",
+      "description": "Master the concepts and technologies of cloud computing, including AWS, Azure, and Google Cloud.",
+      "image": "bootcamp2.jpg",
+      "duration": "10 weeks",
+      "price": 12000,
+      "location": "Atlanta",
+      "ratings": 4.2,
+      "reviews": 170
+    },
+    {
+      "id": 19,
+      "title": "Data Visualization Bootcamp",
+      "description": "Learn how to create compelling and insightful data visualizations using tools like Tableau, Power BI, and D3.js.",
+      "image": "bootcamp.jpg",
+      "duration": "12 weeks",
+      "price": 14000,
+      "location": "Houston",
+      "ratings": 4.6,
+      "reviews": 200
+    },
+    {
+      "id": 20,
+      "title": "UX Research Bootcamp",
+      "description": "Develop the skills to conduct user research, analyze data, and create actionable insights to improve user experience.",
+      "image": "bootcamp4.jpg",
+      "duration": "10 weeks",
+      "price": 11000,
+      "location": "Miami",
+      "ratings": 4.3,
+      "reviews": 200
+    }
+  ],
+  "locations": [
+    {
+      "name": "Washington D.C.",
+      "id": 1
+    },
+    {
+      "name": "New York City",
+      "id": 2
+    },
+    {
+      "name": "Atlanta",
+      "id": 3
+    },
+    {
+      "name": "Miami",
+      "id": 4
+    },
+    {
+      "name": "Houston",
+      "id": 5
+    }
+  ]
+}
