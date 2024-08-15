@@ -1,11 +1,9 @@
 import { BootcampCard } from "../components/bootcampCard";
 import { SearchBar } from "../components/searchBar";
-import { httpRequest } from "../config/axios.config";
+
 import { useQuery } from "@tanstack/react-query";
-import { useSearchParams } from "react-router-dom";
+import { NavLink, useSearchParams } from "react-router-dom";
 import { fetchBootcamps, fetchLocations } from "../services/bootcamps-services";
-
-
 
 export function BootcampsPage() {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -32,7 +30,7 @@ export function BootcampsPage() {
   }
 
   function handleSearchChange(searchKey) {
-    setSearchParams({title: searchKey})
+    setSearchParams({ title: searchKey });
   }
 
   const { data: locations } = useQuery({
@@ -74,7 +72,9 @@ export function BootcampsPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {data &&
           data?.bootcamps?.map((bootcamp) => (
-            <BootcampCard key={bootcamp.id} bootcamp={bootcamp} />
+            <NavLink key={bootcamp.id} to={`/bootcamps/${bootcamp.id}`}>
+              <BootcampCard key={bootcamp.id} bootcamp={bootcamp} />
+            </NavLink>
           ))}
       </div>
       <div className="mt-8 flex justify-center">
@@ -96,10 +96,4 @@ export function BootcampsPage() {
       </div>
     </div>
   );
-}
-
-export async function loader() {
-  const response = await httpRequest.get("/bootcamps");
-
-  return response.data;
 }

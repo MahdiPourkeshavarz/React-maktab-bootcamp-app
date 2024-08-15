@@ -1,6 +1,3 @@
-
-
-
 import { NavLink } from "react-router-dom";
 
 export function Header() {
@@ -60,8 +57,12 @@ export function Header() {
             </li>
           </ul>
         </nav>
-        <img className="object-cover w-16" src="logo.gif" alt="_" />
+        <img
+          className="object-cover w-16"
+          src="../../public/logo.gif"
+          alt="_"
+        />
       </div>
     </header>
   );
-};
+}
